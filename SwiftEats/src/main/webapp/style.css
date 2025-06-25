@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+	margin:0%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.logo,.logo:hover{
+	
+	color:#FF4500;
+	font-family:'Baloo 2',sans-serif;
+	font-size:larger;
+	text-decoration:none;
+	margin-left:10%;
+}
+
+.div1{
+	border:2px solid lightgray;
+	font-family:sans-serif;
+	width:25%;
+	margin-left:37%;
+	margin-top:10%;
+	padding:3%;
+	padding-top:1%;
+	padding-bottom:1%;
+	background-color:white;
+	border-radius:15px;
+}
+.div2{
+	border:2px solid lightgray;
+	font-family:sans-serif;
+	width:35%;
+	margin-left:33%;
+	margin-top:1%;
+	padding:3%;
+	padding-top:1%;
+	padding-bottom:2%;
+	background-color:white;
+	border-radius:15px;
+
+}
+
+.div3{
+	border:2px solid lightgray;
+	font-family:sans-serif;
+	width:30%;
+	margin-left:37%;
+	margin-top:10%;
+	padding:3%;
+	padding-top:2%;
+	padding-bottom:1%;
+	background-color:white;
+	border-radius:15px;
+}
+
+form{
+	padding-left:5%;
+}
+h2{
+	text-align:center;
+}
+
+input{
+	height:33px;
+	width:94%;
+	border-radius:10px;
+
+}
+.submit{
+	width:30%;
+	height:33px;
+	margin-left:33%;
+	cursor:pointer;
+}
+.submit:hover{
+	color:white;
+	background-color:#FF4500;
+	
+}
+a{
+	color:green;
+}
+a:hover{
+	color:orange;
+}
+
+.input{
+	padding-left:5%;
+}
+
+.Orders,.SignOut,.Password{
+	background-color:#FF4500;
+	margin:2%;
+	margin-left:25%;
+	padding:1%;
+	width:50%;
+	height:30px;
+	color:white;
+	text-align:center;
+	border-radius:15px;
+}
+.Orders a{
+	color:white;
+	text-decoration:none;
+}
+.Orders a:active{
+	color:white;
+	text-decoration:none;
+}
+.Orders a:visited{
+	color:white;
+	text-decoration:none;
+}
+
+
+.SignOut a{
+	color:white;
+	text-decoration:none;
+}
+.SignOut a:active{
+	color:white;
+	text-decoration:none;
+}
+.SignOut a:visited{
+	color:white;
+	text-decoration:none;
+}
+
+
+.Password a{
+	color:white;
+	text-decoration:none;
+}
+.Password a:active{
+	color:white;
+	text-decoration:none;
+}
+.Password a:visited{
+	color:white;
+	text-decoration:none;
+}

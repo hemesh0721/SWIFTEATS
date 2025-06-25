@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+	margin:0%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.checkout{
+	margin-left:35%;
+	margin-right:35%;
+	margin-top:10%;
+	border:1px solid grey;
+	border-radius:15px;
+	padding-top:2%;
+	padding-bottom:2%;
+	padding-left:3%;
+
+}
+input,textarea{
+	width:90%;
+	height:30px;
+}
+
+.order-confirmation {
+  position: fixed;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%) scale(0.9);
+  background-color: #28a745;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+
+.show-confirmation {
+  animation: fadePop 0.8s ease-out forwards;
+}
+
+@keyframes fadePop {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) scale(0.8);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(-50%) scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+  }
+}
