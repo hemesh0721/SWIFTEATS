@@ -7,9 +7,9 @@ import java.sql.SQLException;
 public class Connections {
 	public static Connection getConnection() throws ClassNotFoundException,SQLException {
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		String url="jdbc:mysql://localhost:3306/swift_eats";
+		String url="jdbc:mysql://maglev.proxy.rlwy.net:12000/railway?useSSL=true";
 		String username = "root";
-		String password="root";
+		String password="RDuUnSKvdswZlUAAcOwoBqIBErLmVsPq";
 		Connection conn = DriverManager.getConnection(url,username,password);
 		return conn;
 	}
