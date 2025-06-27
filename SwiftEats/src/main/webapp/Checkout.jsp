@@ -8,7 +8,30 @@
 <link rel="stylesheet" href="Checkout.css">
 </head>
 <body>
-	
+	<header class="header">
+		<div class="logo">
+			<h1><a class="anchor" href="home">SWIFTEATS</a></h1>
+		</div>
+		<div class="menu">
+			<a href=""><img src="Images/search.jpg">Search</a>
+			<a href=""><img src="Images/offer.png">Offers</a>
+			<a href=""><img src="Images/help.png">Help</a>
+			<a href="SignIn.jsp"><img src="Images/user.png">
+			<%
+			try{
+			if((boolean)(session.getAttribute("Invalid"))== true){
+				%>
+				<%= session.getAttribute("Username") %>
+			<%} 
+			
+			else{%>
+			Sign In
+			<%}
+			}%><%catch(Exception e)
+			{e.printStackTrace();} %></a>
+			<a href="Cart.jsp"><img src="Images/cart.png">Cart</a>
+		</div>
+	</header>
 	<%
     	boolean orderPlaced = false;
     	if(session.getAttribute("confirm") != null) {

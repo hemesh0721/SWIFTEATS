@@ -48,6 +48,9 @@
 	color:#FF4500;
 }
 
+.anchor{
+	color:black;
+}
 .anchor:active{
 	color:#FF4500;
 }
